@@ -1,4 +1,5 @@
 #Enter a full name
 fullname = input("Enter your full name: ")
-print(fullname.title().replace(" ", "")
+pascal_case = fullname.title().replace(" ", "")
+print(pascal_case)
 
